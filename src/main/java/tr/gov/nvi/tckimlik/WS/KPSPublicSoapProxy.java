@@ -49,6 +49,11 @@ public class KPSPublicSoapProxy implements tr.gov.nvi.tckimlik.WS.KPSPublicSoap 
       _initKPSPublicSoapProxy();
     return kPSPublicSoap.TCKimlikNoDogrula(TCKimlikNo, ad, soyad, dogumYili);
   }
+
+public boolean TCKimlikNoDogrula(long parseLong, String firstName, String lastName, String dateOfBirth) {
+	// TODO Auto-generated method stub
+	return false;
+}
   
   
 }
